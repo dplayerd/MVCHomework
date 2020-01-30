@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+
+    var collection = new string[] { "aaa ", "bbb ", null };
+}
+
+<h2>Index</h2>
+
+@foreach (var item in collection)
+{
+    <span class="@item">@item</span><br />
+}
