@@ -35,7 +35,13 @@ namespace TryMVC.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        public ActionResult Update(HomeworkViewModel model)
+        {
+            new HomeworkService().Update(model);
 
+            return RedirectToAction("Index");
+        }
 
         public ActionResult Delete(string id)
         {

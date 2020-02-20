@@ -75,8 +75,7 @@
                         @item.Amount.ToString("###,###")
                     </td>
                     <td>
-
-
+                        <a href="@Url.Action("Delete", item.ID)" onclick="return confirm('您確定要刪除嗎?');">刪除</a>
                     </td>
                 </tr>
             }
