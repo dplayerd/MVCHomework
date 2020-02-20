@@ -1,0 +1,11 @@
+﻿################################################################################
+# 這個 .gitignore 檔案由 Microsoft(R) Visual Studio 自動建立。
+################################################################################
+
+/ClassLibrary1/obj/Debug
+/ClassLibrary1/bin/Debug
+/.vs
+/TryMVC/obj
+/TryMVC.Tests/bin
+/TryMVC.Tests/obj
+/TryMVC/App_Data
